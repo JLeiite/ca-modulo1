@@ -1,8 +1,3 @@
-git push - envia arquivos para a nuvem
-git pull - puxa os arquivos que está na nuvem para a máquina local
-
-
-
 // Aula GIT
 git init
 Inicia o GIT na máquina local
@@ -21,3 +16,9 @@ Descrição da versão que está sendo criada
 
 git remote add origin
 Vincula um repositório em uma máquina local á um repositório no GitHub
+
+git push
+Envia os arquivos de uma máquina local para um repositório no GitHub
+
+git pull
+Baixa todas as alterações do repositório remoto para a máquina local. Muito utilizado quando há mais pessoas trabalhando no mesmo projeto.
