@@ -17,3 +17,11 @@ let alturaEmMetros = 1.72;
 // String template
 console.log(`${nomeCompleto} tem ${idade} e sua altura é ${alturaEmMetros}`);
 
+/* EXERCÍCIO VARIÁVEIS -1 */
+const cidadeNatal = "Rio de Janeiro";
+console.log(cidadeNatal);
+
+let populacaoRJ;
+populacaoEmMilhoes = 16_046_000; // Para separar as unidades de medidas pode ser usado o _
+
+console.log(populacaoRJ);
