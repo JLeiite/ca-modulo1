@@ -17,8 +17,20 @@ Descrição da versão que está sendo criada
 git remote add origin
 Vincula um repositório em uma máquina local á um repositório no GitHub
 
-git push
+git push -u origin master OU git push
 Envia os arquivos de uma máquina local para um repositório no GitHub
 
 git pull
 Baixa todas as alterações do repositório remoto para a máquina local. Muito utilizado quando há mais pessoas trabalhando no mesmo projeto.
+
+git checkout -b nomeBranch
+Cria uma nova branch e entra na nova branch, pode ser utilizada como se fosse uma homologação. Ela vai poder ser alterada, sem alterar o projeto principal.
+
+git checkout master
+Retorna para a branch principal (master).
+
+git checkout nomeBranch
+Altera para outra branch existente.
+
+git push -u origin nomeBranch
+Envia os arquivos de uma máquina local para uma branch de um repositório no GitHub.
