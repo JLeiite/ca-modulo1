@@ -25,3 +25,13 @@ let populacaoRJ;
 populacaoEmMilhoes = 16_046_000; // Para separar as unidades de medidas pode ser usado o _
 
 console.log(populacaoRJ);
+
+/* TIPOS DE DADOS PRIMITIVOS EM JAVASCRIPT:
+
+Boolean - true / false
+null - nulo
+undefined - não definido
+Number - números inteiros ou não
+String - qualquer tipo de nome, declarado entre aspas duplas ""
+
+*/
