@@ -1,0 +1,23 @@
+git push - envia arquivos para a nuvem
+git pull - puxa os arquivos que está na nuvem para a máquina local
+
+
+
+// Aula GIT
+git init
+Inicia o GIT na máquina local
+
+git clone + (código do SSH do git a ser duplicado)
+Clona um repositório do GIT para a máquina local
+
+git add . OU git add nomeArquivo
+Adiciona todos os arquivos para a área de preparação(Stage) para atualização no GIT
+
+git reset . OU git reset nomeArquivo
+Remove 1 OU MAIS arquivos para adicionar no Stage, é o contrário do git add
+
+git commit -m "Comentário"
+Descrição da versão que está sendo criada
+
+git remote add origin
+Vincula um repositório em uma máquina local á um repositório no GitHub

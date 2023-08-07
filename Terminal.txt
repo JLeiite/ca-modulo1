@@ -1,0 +1,12 @@
+cd - acessar pastas (TAB - preenche o resto do nome da pasta)
+dir - mostra diretórios
+ls - lista arquivos
+cls - limpa a busca
+
+mkdir - cria pastas
+echo >> nomeArquivo.js - cria arquivos
+node nomeArquivo.js - executa arquivos
+rm - remove arquivo
+rmdir - remove diretório
+
+code . - abre o VSCode
