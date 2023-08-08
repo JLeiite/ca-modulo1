@@ -64,3 +64,7 @@ let nome = "Juliana", sobrenome = "Leite", nomeCompleto = nome + " " + sobrenome
 
 console.log(nomeCompleto);
 
+// OUTRAS OPERAÇÕES - Usando Math.
+let raiz = Math.sqrt(144);
+
+console.log(raiz);
