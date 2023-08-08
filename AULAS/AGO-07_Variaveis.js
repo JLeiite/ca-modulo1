@@ -35,3 +35,11 @@ Number - números inteiros ou não
 String - qualquer tipo de nome, declarado entre aspas duplas ""
 
 */
+
+// OPERADORES
+let x = 10, y = 2;
+
+let soma = x+y, subtracao = x-y, multiplicacao = x*y, divisao = x/y;
+
+
+console.log(`Soma: ${soma}, Subtrai: ${subtracao}, Multiplica: ${multiplicacao}, Divisão: ${divisao}`);
