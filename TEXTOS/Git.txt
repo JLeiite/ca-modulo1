@@ -14,6 +14,9 @@ Remove 1 OU MAIS arquivos para adicionar no Stage, é o contrário do git add
 git commit -m "Comentário"
 Descrição da versão que está sendo criada
 
+git revert (código do commit)
+Retorna á um commit/versão de código anterior.
+
 git remote add origin
 Vincula um repositório em uma máquina local á um repositório no GitHub
 
