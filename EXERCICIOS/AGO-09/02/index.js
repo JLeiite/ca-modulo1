@@ -1,5 +1,16 @@
-const letras = ["A", "a", "B", "C", "E", "e"];
+const letras = ["A", "a", "B", "C", "E", "e", 'eeeeeee'];
 
+let quantidade = 0;
+
+for (let letra of letras) {
+  if (letra == 'e' || letra == "E"){
+    quantidade++;
+  }
+}
+
+console.log(quantidade);
+
+/* OUTRA OPÇÃO PRA RESOLVER
 function somaLetras(array) {
     let soma = 0;
     for (let i = 0; i < array.length; i++) {
@@ -9,5 +20,7 @@ function somaLetras(array) {
     }
     return soma;
   }
-  
+
   console.log("Soma:", somaLetras(letras));
+
+  */
