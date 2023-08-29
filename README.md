@@ -1,5 +1,5 @@
-# ca-modulo1
-CA - Módulo 1
+# Módulo 1 - Cubos Academy
+Módulo 1: Exercícios
 
 - Terminal (03/08)
 - GitHub (04/08)
