@@ -33,7 +33,6 @@ function addProdutoAoCarrinho(carrinho, produto){
     for (let itemCarrinho of carrinho.produtos){
         if(itemCarrinho.id == produto.id || itemCarrinho.nome == produto.nome) {
             idProduto = produto.id;
-            console.log(idProduto)
             break;
         }
     }
@@ -53,4 +52,4 @@ const novaBermuda = {
 }
 
 addProdutoAoCarrinho(carrinho, novaBermuda);
-console.log(carrinho);
+carrinho.imprimirResumo();
